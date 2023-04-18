@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Customer Profile</title>
+    <link rel="stylesheet" href="CustomerProfile.css">
+  </head>
+  <body>
+    <form id="customer-form">
+      <h1>Customer Profile</h1>
+      <label>First Name:</label>
+      <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required autocomplete="on">
+
+      <label>Last Name:</label>
+      <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required autocomplete="on">
+
+      <label>Country:</label>
+      <select id="Country" name="Country" required>
+        <option value="">Select Your Country</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+      </select>
+
+      <label>City:</label>
+      <select id="City" name="City" required>
+        <option value="City">Select Your City</option>
+        <option value="Riyadh">Riyadh</option>
+        <option value="Jeddah">Jeddah</option>
+        <option value="Dammam">Dammam</option>
+        <option value="Taif">Taif</option>
+      </select>
+
+      <label>Age:</label>
+      <input type="number" id="age" name="age" placeholder="Enter your age" required autocomplete="on">
+
+      <div class="phone-input">
+        <div class="input-wrapper"> 
+          <label class="mobile" for="country-code">Country Code:</label>
+          <select id="country-code" name="country-code">
+            <option value="+966">+966</option>
+          </select>
+        </div>
+        <div class="input-wrapper"> 
+          <label class="mobile">Mobile:</label>
+          <input type="tel" id="phone-number" name="phone-number" placeholder="Enter Your Phone Number" autocomplete="on">
+        </div>
+      </div>
+      
+      
+      
+
+      <label>Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required autocomplete="on">
+
+      <label>Time:</label>
+      <input type="time" id="time" name="time" required autocomplete="on">
+
+      <label>Date:</label>
+      <input type="date" id="date" name="date" required autocomplete="on">
+
+      <label>Comments:</label>
+      <textarea id="comments" name="comments" placeholder="Enter any comments"></textarea>
+
+      <input type="submit" value="Submit" autocomplete="on">
+    </form>

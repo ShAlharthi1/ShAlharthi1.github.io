@@ -1,0 +1,76 @@
+    body {
+      background-color: #d6c9bd;
+    }
+    form {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background-color: #f4f1ec;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        z-index: 2;
+        border-radius: 10px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: #695A5C;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      input[type="number"],
+      input[type="time"],
+      input[type="date"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 15px;
+        border: 2px solid #8f8d8aa3;;
+        background-color: #f4f3ebca;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        opacity: 0.9;
+      }
+    
+      .phone-input {
+        display: flex;
+        flex-direction: row;
+        margin-right: -10px;
+        
+      }
+      
+      .input-wrapper {
+        margin-right: 10px;
+        width: 100%;
+      }
+      
+      label {
+        margin-right: 10px;
+      }
+    
+      input[type="submit"] {
+        background-color: #695A5C;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #555;
+      }
+
+      .error-message {
+        color: red;
+        font-weight: bold;
+        margin-top: 5px;
+      }  
